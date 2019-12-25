@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+  <link rel="stylesheet" href="animate.css">
+  
+    <style>
+    
+      #box {
+        
+        
+      }
+    
+      .textarea {
+        
+        
+        
+      }
+     
+      img {
+      
+      
+      margin-top: 100px;
+      border-radius: 10px;
+      margin: 0 auto;
+      
+        
+      }
+      
+      .box {
+        
+        border: 2px solid ivory;
+        //margin-top: 20px;
+        text-align: center;
+        //padding: 30px;
+        margin-bottom: 100px;
+
+        
+        
+      }
+      
+      .formInput {
+        
+        text-align: center;
+        padding: 8px;
+        background-color: ivory;
+        width: 100%;
+        margin: 3px 0 30px 0;
+       
+        
+      }
+      
+      #form {
+ 
+        width: 90%;
+        color: ivory;
+        font-family: 'Bellefair', serif;
+        font-size: 23px;
+        margin: 0 auto;
+        margin-top: -10px;
+
+        
+
+      }
+      
+        #sendIt {
+        
+        background-color: black;
+        color: ivory;
+        //margin-left: 81%;
+        text-align: center;
+        
+        
+      }
+   
+      h5 {
+        
+        font-family: Verdana;
+        margin: 20px;
+
+        background-color: ivory;
+        color: black;
+        text-align: center;
+        padding: 20px 0px 10px 0px;
+        font-family: 'Bellefair', serif;
+        line-height: 1.5;
+
+        
+        
+
+
+      }
+      
+      p {
+        
+        
+        margin: 30px;
+        font-family: 'Lato', sans-serif;
+        
+        //text-align: justify;
+        line-height: 1.6;
+        font-size: 23px ;
+        color: ivory;
+
+        
+      }
+      
+     .header h1 {
+       
+       font-family: 'Cinzel Decorative', cursive;
+
+       text-align: center;
+       margin-top: 10px;
+       padding: 25px;
+       color: ivory;
+       
+       
+     }
+     
+     .header {
+      
+      min-height: 100px;
+      //border-bottom: 5px solid ivory;
+      padding: 50px;
+      background-color: black;
+       
+     }
+     
+     .left-col {
+       
+      //border: 1px solid;
+      background-color: black;
+      line-height: 1.5;
+      
+
+       
+     }
+     
+    .right-col {
+       
+      //border: 1px solid;
+      background-color: black;
+     
+    }
+    
+    .button {
+      
+      text-align: right;
+      margin: 10p;
+    }
+  
+    
+  
+
+    
+    </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+    </style>
+   
+
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+   
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="/1558592172.ico">
+
+
+  
+
+    <title>Ryan Leissner - IT & Web Professional - Southern California</title>
+  </head>
+  <body>
+    
+    
+  <div class='container'>
+    <div class='row'>
+      <div  class="col-xl header">
+        
+          <h1 class="animated slideInRight ">Ryan Leissner</h1>
+          
+
+      </div>
+    </div>
+
+
+  <div class="row">
+    <div class="col-sm left-col">
+    <br>
+      
+      <p class="box">About Me</p>
+
+      
+      <h5 class="animated bounceInUp" ><strong>Javascript & PHP Developer<br><br>
+      <span class="movedown" ><a href="http://app.ryanleissner.com">Protein Cost Calculator</a></span></strong></h5><br>
+
+      <h5 class="animated jackInTheBox"><strong>A+ Certified IT Technician<br><br>
+      <span class="movedown"><a href="https://www.youracclaim.com/badges/a1d68f3c-5db3-4ee3-8835-dbcf09862764">Verify</a></span></strong></h5><br>
+      
+      <h5 class="animated lightSpeedIn"><strong>A.A Degree, Social Sciences <br><br>
+      <span class="movedown"><a href="http://www.coastline.edu/">Coastline College</a></span></strong></h5><br>
+      
+      
+    
+    
+  </div>
+  <br>
+  <div id='hide' class="col-sm right-col">
+      
+      <!-- <h5><strong>Not on Facebook !</strong></h5> -->
+      
+      <br>
+      
+      <p id="box" class="box">Contact Me <br></p>
+            
+      <form id='form' class="form" action='thanks.php' method="post">
+        <strong>Name</strong> <br>
+        <input class='formInput' type='text' name='name'><br>
+        <strong>Email</strong>
+        <input class='formInput' type='text' name='email'><br>
+        <strong>Your Thoughts Here</strong>
+        <textarea  rows='5' class='formInput textarea' name="textArea"></textarea>
+        <br>
+        <div class="button"><button type="submit" onclick=(sendIt()) id='sendIt'>Send It !</button></div>
+
+      </form>
+
+
+
+
+
+<div id="error-message"></div>
+
+
+
+ </div>
+ </div>
+ 
+ <div class='row'>
+      <div  class="col-xl bottomdiv">
+        
+      
+        
+      </div>
+ </div>
+ 
+</div>
+
+
+
+
+  
+  
+
+
+<!--
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/4u-jvxEA0p0" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D25zUr8q6u4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+-->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     
+     
+      
+   
+   
+    <script>
+    
+
+
+
+
+
+   
+     
+     function sendIt() {
+       
+       document.getElementById('box').style = 'border: none '
+       document.getElementById('box').innerHTML = "Thanks!<br><br><img src='kitty.jpg' class='image' width='250' >"
+       document.getElementById('form').style = "display:none"
+       document.getElementById('sendIt').style = "display:none"
+       
+     }
+
+     
+        
+        
+      
+      
+    </script>
+
+    
+
+    <script>
+      
+      if (document.referrer == "http://ryanleissner.com/thanks.php" || document.referrer == "https://ryanleissner.com/thanks.php" ) {
+          
+          sendIt()
+        
+      }
+   
+      
+    </script>
+
+
+    
+  
+ 
+
+    
+  </body>
+</html>
+  
+  
